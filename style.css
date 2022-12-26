@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    146deg,
+    rgba(196, 65, 13, 1) 15%,
+    rgba(79, 48, 46, 1) 39%,
+    rgba(95, 62, 106, 1) 66%,
+    rgba(0, 202, 255, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper {
+  width: 50%;
+  height: 100%;
+  padding: 50px 0;
+}
+.add-task-input {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  grid-gap: 10px;
+}
+.add-task-input input {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.add-task-input input[type='text'] {
+  color: rgb(48, 11, 48);
+  font-size: 20px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 10px;
+  margin: 10px 0;
+}
+.task button:nth-child(3) {
+  margin-left: auto;
+  margin-right: 10px;
+}
+.task p {
+  margin-left: 10px;
+}
+.completed {
+  background-color: rgb(196, 65, 13);
+
+  /* opacity: 0.6; */
+}
+.completed input {
+  text-decoration: line-through;
+  background-color: rgb(196, 65, 13) !important;
+}
+#start-message {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+.btn{
+  padding: 5px 10px;
+  background-color: aqua;
+  border: none;
+}
+.add-task-input input:last-child{
+  background-color: aquamarine;
+}

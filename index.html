@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>todo list</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-wrapper">
+        <form class="add-task-input" id="add-task-btn">
+          <input placeholder="enter task" type="text" id="input-panel" name="inputSubmit" />
+          <input type="submit" value="add task" />
+        </form>
+        <div class="task-list">
+          <p id="start-message">нет новых задач на сегодня</p>
+          <!-- !!ниже структура которая должна создаваться с помощью js при клике на кнопку addTask -->
+          <!-- <div class="task">
+          <input type="checkbox">
+          <p>bonjour</p>
+          <button>edit</button>
+          <button>delete</button>
+        </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="root"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
